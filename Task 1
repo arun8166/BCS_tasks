@@ -1,1 +1,13 @@
+# Lets import required Libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+
+# Execute this cell for loading dataset in a pandas dataframe
+
+from IPython.display import clear_output
+!wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=16x6-8Znn2T50zFwVvKlzsdN7Jd1hpjct' -O Linear_regression_dataset
+
+data_df = pd.read_csv("Linear_regression_dataset")
 
